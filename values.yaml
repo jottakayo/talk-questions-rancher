@@ -50,7 +50,7 @@ securityContext: {}
   # runAsUser: 1000
 
 # This is for setting environment variables on the container in YAML map format.
-env: {}
+env: ""
 # Exemplo:
 # APP_ENV: production
 # FEATURE_FLAG: "true"
