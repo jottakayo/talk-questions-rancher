@@ -37,6 +37,14 @@ questions:
     label: Image Pull Policy
     group: "Container"
 
+  - variable: env
+    default: ""
+    description: Variaveis de ambiente.
+    type: multiline
+    required: false
+    label: Container Env
+    group: "Container"
+
   - variable: service.type
     default: ClusterIP
     description: Tipo do Service Kubernetes.

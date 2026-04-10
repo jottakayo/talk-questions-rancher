@@ -49,6 +49,14 @@ securityContext: {}
   # runAsNonRoot: true
   # runAsUser: 1000
 
+# This is for setting environment variables on the container in YAML list format.
+env: []
+# Exemplo:
+# - name: APP_ENV
+#   value: production
+# - name: FEATURE_FLAG
+#   value: "true"
+
 # This is for setting up a service more information can be found here: https://kubernetes.io/docs/concepts/services-networking/service/
 service:
   # This sets the service type more information can be found here: https://kubernetes.io/docs/concepts/services-networking/service/#publishing-services-service-types
