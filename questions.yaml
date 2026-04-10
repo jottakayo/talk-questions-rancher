@@ -39,7 +39,7 @@ questions:
 
   - variable: env
     default: ""
-    description: Variaveis de ambiente.
+    description: Variaveis de ambiente em formato chave e valor YAML. Exemplo APP_ENV: production
     type: multiline
     required: false
     label: Container Env
